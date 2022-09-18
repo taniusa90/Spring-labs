@@ -1,6 +1,7 @@
 package com.cydeo.account;
 
 import com.cydeo.Currency;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,6 +16,6 @@ public class Saving {
     private UUID accountId;
 
     public void initialize(){
-        System.out.println("savings account " + "currency: "+ currency.getCode() + "amount: " + amount + "accountId" + accountId);
+        System.out.println("savings account " + "currency: "+ currency.getCode() + "amount: " + amount + "accountId " + accountId);
     }
 }
