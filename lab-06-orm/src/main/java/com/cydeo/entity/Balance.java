@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 public class Balance extends BaseEntity{
+
     private BigDecimal amount;
     @OneToOne
     private Customer customer;
