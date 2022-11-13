@@ -76,8 +76,8 @@ public class QueryDemo implements CommandLineRunner {
         //System.out.println(orderRepository.findByCustomer_Email("asturton0@list-manage.com"));
        // System.out.println(orderRepository.findOrdersByPayment_PaymentMethod(PaymentMethod.BUY_NOW_PAY_LATER));
         //System.out.println(orderRepository.retrieveAllOrdersByName("Almonds Ground Blanched"));
-        System.out.println(orderRepository.retrieveAllOrdersByCategoryId(1L));
-        //System.out.println(orderRepository.findByPaidPriceAndTotalPriceEquals(BigDecimal.valueOf(767.98), BigDecimal.valueOf(1563.97)));
+       // System.out.println(orderRepository.retrieveAllOrdersByCategoryId(1L));
+        //System.out.println(orderRepository.findByPaidPriceAndTotalPriceEquals(BigDecimal.valueOf(767.98), BigDecimal.valueOf(767.98)));
         //System.out.println(orderRepository.findByPaidPriceAndTotalPriceAndCart_DiscountIdNotNull(BigDecimal.valueOf(316.72), BigDecimal.valueOf(171.37)));
         System.out.println("---------Product-------------");
         // System.out.println(productRepository.findFirs3tByOrderByPriceDesc());

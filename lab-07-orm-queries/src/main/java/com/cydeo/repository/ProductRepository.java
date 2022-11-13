@@ -17,7 +17,7 @@ public interface ProductRepository extends JpaRepository<Product,Long> {
     //Write a derived query to get product by specific name
     Product findByName(String name);
     //Write a derived query to get product by specific category
-    List<Product> findByCategoryId (Long category_id);
+    List<Product> findAllByCategoryContaining (Category category);
     //Write a derived query to get count by price greater than specific amount
     Integer countAllByPriceGreaterThan(BigDecimal price);
     //Write a derived query to get all product by quantity greater than or equal specific count
